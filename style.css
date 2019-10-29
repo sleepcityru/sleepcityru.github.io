@@ -137,3 +137,43 @@ H1 {
   @media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} }
   @media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} }
   @media screen and (max-width: 992px) { div.contentblock {width: 970px;} }
+
+  #article-author {
+    float: left;
+    width: 530px; /* ширина блока об авторе */
+    margin-bottom: 20px;
+    border: 1px solid #d9d9d9;
+    background-color: #c7b39b; /* цвет фона блока об авторе */
+    padding: 10px;
+    }
+     
+    #article-author a {
+    color: #56b0d8;
+    }
+     
+    #article-author a:hover {
+    color: #000;
+    }
+     
+    #author-text {  /* расположение и шрифт текста об авторе */
+    width: 530px;
+        font-family: 'Intro';
+        font-size:90%;
+        color: #666;
+    }
+     
+    .post-counter { /* расположение и шрифт нижней записи текста об авторе */
+    margin-top:15px;
+    font-family: 'Intro';
+        font-size:90%;
+        color: #666;
+    }
+     
+    .author { /* Автор статьи:  */
+    color: #000000;
+    font-weight: normal;
+    font-family: 'Intro';
+    font-size: 14px;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+    }
